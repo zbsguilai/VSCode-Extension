@@ -1,0 +1,27 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"target": "ES2020",
+		"outDir": "out",
+		"lib": [
+			"dom",
+			"es6"
+		],
+		"jsx": "react-jsx",
+		"sourceMap": true,
+		"rootDir": "src",
+		"skipLibCheck": true, // 跳过库文件的类型检查（提高性能）
+		"esModuleInterop": true, // 启用 ES 模块的互操作性
+		"allowSyntheticDefaultImports": true,
+		"moduleResolution": "node", // // 模块解析方式
+		"strict": true, /* enable all strict type-checking options */
+	},
+	"exclude": [
+		"node_modules",
+		".vscode-test",
+		"./src/main/**/*.tsx",
+		"./src/main/**/*.ts",
+		"./src/main/**/*.css",
+		"./src/request/**/*.ts",
+	]
+}
